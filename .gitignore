@@ -104,7 +104,4 @@ dist
 .tern-port
 
 # built files
-bundle.js
-bundle.js.map
-styles.css
-styles.css.map
+public/dist/
