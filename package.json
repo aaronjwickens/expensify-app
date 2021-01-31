@@ -42,6 +42,8 @@
     "webpack-dev-server": "^2.11.5"
   },
   "scripts": {
+    "start": "node server/server.js",
+    "heroku-postbuild": "npm run build:prod",
     "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
